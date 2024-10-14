@@ -70,22 +70,14 @@ The system will then process your commands based on the selected format.
 ### 5. **Batch ID Input Form**
 - **Description**: This form allows users to enter a Batch ID to view details of a specific batch.
 - **Input Field**:
-  - **Type**: Number
-  - **Placeholder**: "Batch ID..."
-  - **Required**: Yes
-  - **Functionality**: On input, the form will trigger a function (`updateBatchForm()`) to handle the input dynamically. Upon submission, it will redirect you to the details of the entered batch.
-- **Submit Button**: 
-  - **Text**: "See batch details"
+  - Fill in the BachID which is a Number. This is a required Field so can't be blank when submitting.
+  - **Functionality**: On input, the form will trigger a function (`updateBatchForm()`) to handle the input dynamically. Upon submission, it will redirect you to the details of the entered batch. Click on the Submit Button --> "See batch details"
 
 ### 6. **Username Input Form**
 - **Description**: This form allows users to enter a username to see all batches associated with that user.
 - **Input Field**:
-  - **Type**: Text
-  - **Placeholder**: "Username..."
-  - **Required**: Yes
-  - **Functionality**: Similar to the Batch ID form, this form will trigger a function (`updateUserForm()`) on input. Upon submission, it will show all batches related to the entered username.
-- **Submit Button**:
-  - **Text**: "See batches by user"
+  - Fill in the Username which is a Text. This is a required Field so can't be blank when submitting.
+  - **Functionality**: Similar to the Batch ID form, this form will trigger a function (`updateUserForm()`) on input. Upon submission, it will show all batches related to the entered username. Click on the Submit Button --> "See batches by user"
 
 ## Conclusion
 The home page of QuickStatements 3.0 is designed to be user-friendly and efficient, allowing users to quickly create new batches or access existing batch details. With its simple layout and intuitive forms, users can easily navigate through the functionalities available in the application.
