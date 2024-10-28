@@ -4,8 +4,8 @@
 
 1. [Overview](#overview)
 2. [Home Page Features](#home-page-features)
-   - [Navigation](#1.-navigation)
-   - [User Authentication](#user-authentication)
+   - [Navigation](#navigation)
+   - [User Authentication](#authentication)
    - [Welcome Message](#welcome-message)
    - [New Batch Button](#new-batch-button)
      - [Key Components of the New Batch Form](#key-components-of-the-new-batch-form)
@@ -70,13 +70,13 @@ Once you access the new batch interface, you will see a form that consists of se
 After filling out the form, click the **Execute** button to submit your batch. 
 The system will then process your commands based on the selected format.
 
-### 5. **Batch ID Input Form**
+### Batch ID Input Form
 - **Description**: This form allows users to enter a Batch ID to view details of a specific batch.
 - **Input Field**:
   - Fill in the BachID which is a Number. This is a required Field so can't be blank when submitting.
   - **Functionality**: Upon submission, it will redirect you to the details of the entered batch. Click on the Submit Button --> "See batch details"
 
-### 6. **Username Input Form**
+### Username Input Form
 - **Description**: This form allows users to enter a username to see all batches associated with that user.
 - **Input Field**:
   - Fill in the Username which is a Text. This is a required Field so can't be blank when submitting.
