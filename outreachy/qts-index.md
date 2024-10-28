@@ -4,7 +4,7 @@
 
 1. [Overview](#overview)
 2. [Home Page Features](#home-page-features)
-   - [Navigation](#navigation)
+   - [Navigation](#1.-navigation)
    - [User Authentication](#user-authentication)
    - [Welcome Message](#welcome-message)
    - [New Batch Button](#new-batch-button)
