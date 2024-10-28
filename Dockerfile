@@ -27,16 +27,15 @@ RUN mkdir /home/wmb/www/src
 RUN chmod o+x /home/wmb &&chmod o+x /home/wmb/www
 
 COPY bin/cmd_run.sh /home/wmb/www 
-RUN sudo chown wmb:wmb /home/wmb/www/cmd_run.sh && sudo chmod 777 /home/wmb/www/cmd_run.sh
+RUN sudo chown wmb:wmb /home/wmb/www/cmd_run.sh && sudo chmod 777 /home/wmb/www/cmd_run.sh && sudo chmod 777 /home/wmb/www/src/
 
 COPY requirements.txt /home/wmb/www
 RUN sudo chown wmb:wmb /home/wmb/www/requirements.txt
 
 WORKDIR /home/wmb/www/
-
+COPY ./src /home/wmb/www/src/
 RUN pip install -r requirements.txt
 
 ENV PATH="${PATH}:/home/wmb/.local/bin"
 
 EXPOSE 8000 80
-
