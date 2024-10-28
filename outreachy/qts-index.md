@@ -4,10 +4,14 @@
 
 1. [Overview](#overview)
 2. [Home Page Features](#home-page-features)
-3. [Command Parsers](#command-parsers)
-   - [CSV Command Parser](#csv-command-parser)
-   - [V1 Command Parser](#v1-command-parser)
-4. [Conclusion](#conclusion)
+   - [Navigation](#navigation)
+   - [User Authentication](#user-authentication)
+   - [Welcome Message](#welcome-message)
+   - [New Batch Button](#new-batch-button)
+     - [Key Components of the New Batch Form](#key-components-of-the-new-batch-form)
+   - [Batch ID Input Form](#batch-id-input-form)
+   - [Username Input Form](#username-input-form)
+3. [Conclusion](#conclusion)
 
 ## Overview
 Welcome to the QuickStatements 3.0 application! 
@@ -41,7 +45,6 @@ This button allows users to create a new batch.
 
 **Functionality**: 
 Clicking this button will navigate you to the new batch creation page. 
-- renders the `new_batch.html` template.
 - This template allows users to specify the command format, batch name, and commands to execute.
 
 **New Batch Interface**:
@@ -71,13 +74,13 @@ The system will then process your commands based on the selected format.
 - **Description**: This form allows users to enter a Batch ID to view details of a specific batch.
 - **Input Field**:
   - Fill in the BachID which is a Number. This is a required Field so can't be blank when submitting.
-  - **Functionality**: On input, the form will trigger a function (`updateBatchForm()`) to handle the input dynamically. Upon submission, it will redirect you to the details of the entered batch. Click on the Submit Button --> "See batch details"
+  - **Functionality**: Upon submission, it will redirect you to the details of the entered batch. Click on the Submit Button --> "See batch details"
 
 ### 6. **Username Input Form**
 - **Description**: This form allows users to enter a username to see all batches associated with that user.
 - **Input Field**:
   - Fill in the Username which is a Text. This is a required Field so can't be blank when submitting.
-  - **Functionality**: Similar to the Batch ID form, this form will trigger a function (`updateUserForm()`) on input. Upon submission, it will show all batches related to the entered username. Click on the Submit Button --> "See batches by user"
+  - **Functionality**: Upon submission, it will show all batches related to the entered username. Click on the Submit Button --> "See batches by user"
 
 ## Conclusion
 The home page of QuickStatements 3.0 is designed to be user-friendly and efficient, allowing users to quickly create new batches or access existing batch details. With its simple layout and intuitive forms, users can easily navigate through the functionalities available in the application.
