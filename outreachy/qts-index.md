@@ -13,12 +13,16 @@
    - [Username Input Form](#username-input-form)
 3. [Conclusion](#conclusion)
 
+---
+
 ## Overview
 Welcome to the QuickStatements 3.0 application! 
 
 QuickStatements is a powerful tool used by Wikidata contributors to batch-upload and modify data on Wikidata. It simplifies the process of adding or modifying multiple statements efficiently through automated workflows, making it essential for users who frequently work with large datasets. This documentation aims to guide users through the features of QuickStatements v3 Home Page, making it easier to get started.
 
 This document outlines the features available on the home page and provides a brief overview of how to use them.
+
+---
 
 ## Home Page Features
 
@@ -31,12 +35,12 @@ The home page includes a navigation bar with links to various sections:
 
 ### Authentication
 The navigation bar will also display user authentication status:
-- If the user is anonymous, a "Login" link will be shown.
-- If the user is logged in, it will display the username and a link to "Your last batches".
+- **Anonymous Users**: A "Login" link is displayed.
+- **Logged-in Users**: The username is shown along with a link to "Your Last Batches".
 
 ### Welcome Message
 At the top of the page, you will see a welcoming message that greets users:
-- **Heading**: "Welcome to QuickStatements 3.0"
+> **"Welcome to QuickStatements 3.0"**
 
 ### New Batch Button
 
@@ -82,5 +86,9 @@ The system will then process your commands based on the selected format.
   - Fill in the Username which is a Text. This is a required Field so can't be blank when submitting.
   - **Functionality**: Upon submission, it will show all batches related to the entered username. Click on the Submit Button --> "See batches by user"
 
+---
+
 ## Conclusion
 The home page of QuickStatements 3.0 is designed to be user-friendly and efficient, allowing users to quickly create new batches or access existing batch details. With its simple layout and intuitive forms, users can easily navigate through the functionalities available in the application.
+
+---
