@@ -22,23 +22,23 @@ This document outlines the features available on the home page and provides a br
 
 ## Home Page Features
 
-### 1. Navigation
+### Navigation
 The home page includes a navigation bar with links to various sections:
 - **QuickStatements 3.0**: A link to the homepage.
 - **New Batch**: A link to create a new batch.
 - **Last Batches**: A link to view recent batches (functionality not defined yet).
 - **Git Repository**: A link to the [QuickStatements GitHub Repository](https://github.com/WikiMovimentoBrasil/quickstatements3).
 
-### 2. User Authentication
+### Authentication
 The navigation bar will also display user authentication status:
 - If the user is anonymous, a "Login" link will be shown.
 - If the user is logged in, it will display the username and a link to "Your last batches".
 
-### 3. **Welcome Message**
+### Welcome Message
 At the top of the page, you will see a welcoming message that greets users:
 - **Heading**: "Welcome to QuickStatements 3.0"
 
-### 4. **New Batch Button**
+### New Batch Button
 
 **Description**: 
 This button allows users to create a new batch.
